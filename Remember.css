@@ -1,0 +1,690 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Header starts */
+
+header {
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    padding: 10px;
+    justify-content: space-between;
+    /* border: 2px solid gold; */
+}
+
+header .header-left {
+    display: flex;
+    margin-left: 80px;
+    font-size: 14px;
+}
+
+header .header-left .left {
+    display: flex;
+    padding: 0px 25px;
+}
+
+
+header .header-left .left p:hover {
+    color: rgb(19, 194, 19);
+    transition: all 0.8s;
+}
+
+header .header-left .left i {
+    color: rgb(19, 194, 19);
+}
+
+header .header-left .left:hover {
+    color: rgb(19, 194, 19);
+    transition: all 0.8s;
+}
+
+header .header-right {
+    padding-right: 110px;
+    color: snow;
+}
+
+header .header-right i:hover {
+    color: rgb(19, 194, 19);
+    transition: all 0.8s;
+}
+
+/* header ends */
+
+
+
+
+
+/* navbar starts */
+
+nav {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    position: sticky;
+    /* top: 100px; */
+    /* border: 2px solid gold; */
+}
+
+nav .navbar-logo {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 110px;
+    /* border: 2px solid gold; */
+}
+
+nav ul {
+    display: flex;
+    /* border: 2px solid gold; */
+    margin-right: 125px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+nav ul li a:hover {
+    color: rgb(19, 194, 19);
+    font-size: 14px;
+    transition: all 0.8s;
+}
+
+/* navbar ends */
+
+
+
+
+
+/*  Banner starts */
+.banner-image {
+    height: 610px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url('./images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner {
+    height: 610px;
+    width: 100%;
+    background-color: rgba(22, 22, 21, 0.6);
+}
+
+.banner,
+.banner-content {
+    color: whitesmoke;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .banner-content h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 4px;
+}
+
+.banner .banner-content p {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 4px;
+}
+
+.banner .banner-content a {
+    margin: 60px;
+    border: 2px solid rgb(19, 194, 19);
+    border-radius: 17px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400px;
+    color: whitesmoke;
+    padding: 4px 40px;
+}
+
+/* Banner ends */
+
+
+
+
+
+/* About us starts */
+#about-us {
+    /* border: 2px solid rgb(115, 0, 255); */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.about-image {
+    /* border: 2px solid rgb(19, 194, 19); */
+    border-radius: 10px;
+    height: 600px;
+    width: 100%;
+    background-image: url('./images/aboutus1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin: 40px 30px 40px 70px;
+    box-shadow: 0px 0px 10px 2px rgb(167, 162, 162);
+}
+
+.about-content {
+    /* border: 2px solid red; */
+    height: 700px;
+    width: 100%;
+    margin: 20px 120px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-content1 {
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+
+.about-content1 a {
+    text-decoration: none;
+    color: rgb(19, 194, 19);
+    background-color: rgba(224, 230, 211, 0.538);
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-weight: 600;
+    box-shadow: 0px 0px 1px 1px rgba(198, 205, 181, 0.538);
+
+}
+
+.about-content1 h1 {
+    margin: 15px 0px;
+    font-size: 30px;
+    color: rgb(67, 64, 64);
+}
+
+.about-content1 p {
+    margin: 15px 0px;
+    font-size: 16px;
+    color: rgb(67, 64, 64);
+
+}
+
+.about-content2 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(67, 64, 64);
+
+}
+
+.about-content3 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(67, 64, 64);
+
+}
+
+.about-content4 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(67, 64, 64);
+
+}
+
+.about-content-logo {
+    height: 50px;
+    width: 100px;
+}
+
+
+.about-content .about-content-logo a {
+    text-decoration: none;
+    border: 1px solid rgb(19, 194, 19);
+    border-radius: 10px;
+    color: rgb(99, 157, 12);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 2px 10px;
+    padding: 5px;
+}
+
+.about-content-align {
+    margin: 20px;
+    line-height: 25px;
+}
+
+/* About us ends */
+
+
+
+
+
+/* Why us starts */
+
+.whyus {
+    /* border: 2px solid black; */
+    text-align: center;
+    line-height: 60px;
+}
+
+.whyus a {
+    text-decoration: none;
+    color: rgb(19, 194, 19);
+    background-color: rgba(224, 230, 211, 0.538);
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 1px 1px rgba(198, 205, 181, 0.538);
+}
+
+.whyus h2 {
+    color: rgb(67, 64, 64);
+    font-size: 35px;
+}
+
+.whyus h2 .whyus-spam {
+    color: rgb(19, 194, 19);
+}
+
+.whyus p {
+    font-size: 20px;
+}
+
+/* Why us ends */
+
+
+
+
+/* whyus container starts */
+
+.whyus-container {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 70px;
+}
+
+.whyus-container div {
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 3px 3px rgba(198, 205, 181, 0.538);
+    width: 430px;
+    height: 250px;
+    padding: 0px 25px;
+    margin: 10px;
+}
+
+.whyus-container div:hover {
+    background-color: rgb(172, 239, 172);
+    font-size: large;
+    transition: all 0.8s;
+}
+
+.whyus-container div h2 {
+    color: rgb(19, 194, 19);
+}
+
+.whyus-container div h3 {
+    color: rgb(67, 64, 64);
+    font-size: 20px;
+}
+
+.whyus-container div p {
+    color: gray;
+}
+
+/* whyus container ends */
+
+
+
+
+/* number starts */
+
+.whyus-number {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.whyus-number div {
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.whyus-number h1 {
+    color: rgb(19, 194, 19);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.whyus-number p {
+    font-weight: 300;
+}
+
+/* number ends */
+
+/* call to action starts */
+.call-to-action {
+    background-color: black;
+    color: white;
+    height: 300px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.call-to-action div {
+    padding: 20px;
+}
+
+.call-to-action div h1 {
+    font-size: 28px;
+}
+
+.call-to-action div p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.call-to-action div a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 16px;
+
+}
+
+.call-to-action div a:hover {
+    transition: all 0.8s;
+    font-size: 17px;
+    background-color: rgb(19, 194, 19);
+    color: white;
+    border: none;
+}
+
+/* call to action ends */
+
+
+/* service, portfolio, team and contact content starts */
+
+#service .service-content {
+    /* border: 2px solid black; */
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    padding: 20px;
+}
+
+#service .service-content a {
+    text-decoration: none;
+    color: rgb(19, 194, 19);
+    background-color: rgba(224, 230, 211, 0.538);
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0px 0px 1px 1px rgba(198, 205, 181, 0.538);
+}
+
+#service .service-content h1 {
+    color: rgb(67, 64, 64);
+    font-size: 35px;
+    margin: 30px;
+}
+
+#service .service-content h1 .service-spam {
+    color: rgb(19, 194, 19);
+}
+
+#service .service-content p {
+    color: rgb(67, 64, 64);
+    font-size: 20px;
+}
+
+/* Service, portfolio, team  and contact content starts */
+
+
+
+
+/* Service container starts */
+
+
+#service .service-container {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+#service .service-container div {
+    border: 1px solid rgb(208, 206, 206);
+    width: 410px;
+    height: 325px;
+    padding: 0px 25px;
+    margin: 15px 0px;
+    text-align: center;
+    transition: all 0.8s;
+}
+
+#service .service-container div:hover {
+    /* background-color: rgb(172, 239, 172); */
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(212, 213, 207, 0.538);
+    width: 415px;
+    height: 330px;
+}
+
+#service .service-container div h3:hover {
+    color: rgb(19, 194, 19);
+}
+
+
+#service .service-container div a {
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(19, 194, 19);
+    border: 1px solid rgb(123, 215, 123);
+    background-color: rgba(224, 230, 211, 0.538);
+    padding: 15px;
+    border-radius: 100%;
+}
+
+#service .service-container div h3 {
+    color: rgb(67, 64, 64);
+    /* border: 2px solid black; */
+    margin: 30px;
+    font-size: 23px;
+}
+
+#service .service-container div p {
+    font-size: 17px;
+    color: gray;
+}
+
+
+/* service container ends  */
+
+
+/* portfolio container starts */
+
+#portfolio .portfolio-container {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+#portfolio .portfolio-container .portfolio-image {
+    /* border: 1px solid rgb(208, 206, 206); */
+    width: 410px;
+    height: 325px;
+    margin: 15px 0px;
+}
+
+/* portfolio container ends */
+
+
+/* Team container starts */
+#team .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+#team .team-container div {
+    height: 390px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin: 20px 0px;
+    box-shadow: 0px 0px 5px 5px rgba(212, 213, 207, 0.538);
+
+}
+
+#team .team-container div h3 {
+    margin: 15px 0px 4px 15px;
+    color: rgb(67, 64, 64);
+
+}
+
+#team .team-container div p {
+    color: gray;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* team container ends */
+
+
+/* contact container starts */
+
+#contact .contact-container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 0px 100px;
+}
+
+/* contact details starts */
+
+#contact .contact-container .contact-details {
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+#contact .contact-container .contact-details .contact-details-all {
+    /* border: 1px solid red; */
+    display:inline-flex;
+    width: 100%;
+    margin: 10px;
+
+}
+
+
+#contact .contact-container .contact-details .contact-details-all .contact-logo i {
+    font-size: x-large;
+    color: rgb(19, 194, 19);
+    border: 1px solid rgb(123, 215, 123);
+    background-color: rgba(224, 230, 211, 0.538);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+/* contact details ends */
+
+/* contact  form starts*/
+#contact .contact-container .contact-form {
+    height: 400ox;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+#contact .contact-container .contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+#contact .contact-container .contact-form form input {
+    padding: 10px;
+    margin: 19px;
+    width: 600px;
+    font-size: 15px;
+}
+
+#contact .contact-container .contact-form form button {
+    font-size: 17px;
+    color: white;
+    border: none;
+    background-color: rgb(123, 215, 123);
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#contact .contact-container .contact-form form button:hover {
+    font-size: 18px;
+    color: rgb(19, 194, 19);
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px rgba(212, 213, 207, 0.538);
+
+
+}
+
+
+
+
+/* contact form ends */
+
+/* contact container ends */
